@@ -4,6 +4,7 @@
 	--color-neutral-darkblue: hsl(212, 21%, 14%);
 	--color-neutral-grayblue: hsl(228, 12%, 48%);
 	--color-neutral-white: hsl(0, 0%, 100%);
+	--color-hover-cyan: hsl(158, 36%, 30%);
 }
 
 body {
@@ -72,5 +73,21 @@ body {
 }
 
 .addToCartButton {
-	margin: 24px;
+	margin: 16px 24px 24px;
+	font-size: 1.2rem;
+	padding: 16px;
+	color: var(--color-neutral-white);
+	border-radius: 15px;
+	background-color: var(--color-primary-cyan);
+	border: none;
+	cursor: pointer;
+}
+
+.addToCartButton:hover {
+	background-color: var(--color-hover-cyan);
+}
+
+.addToCartButton:active {
+	background-color: var(--color-hover-cyan);
+	transform: scale(0.95);
 }
