@@ -53,6 +53,24 @@ body {
 	margin-bottom: 56px;
 }
 
+.priceContainer {
+	display: flex;
+	flex-flow: row;
+	align-items: center;
+}
+
+.priceCurrent {
+	font-size: 4rem;
+	font-weight: 700;
+	color: var(--color-primary-cyan);
+	margin-right: 24px;
+}
+
+.priceOld {
+	font-size: 1.2rem;
+	color: var(--color-neutral-grayblue);
+}
+
 .addToCartButton {
 	margin: 24px;
 }
