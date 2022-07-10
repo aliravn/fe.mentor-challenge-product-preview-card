@@ -15,7 +15,7 @@ body {
 }
 
 .productCard {
-	width: 360px;
+	width: 375px;
 	margin: 1rem;
 	background-color: var(--color-neutral-white);
 	display: flex;
@@ -40,6 +40,17 @@ body {
 	color: var(--color-neutral-grayblue);
 	font-size: 1rem;
 	font-weight: 500;
+}
+
+.productTitle {
+	font-size: 2.5rem;
+	margin: 0;
+	line-height: 0.9;
+}
+
+.productDescription {
+	line-height: 1.7;
+	margin-bottom: 56px;
 }
 
 .addToCartButton {
