@@ -1,0 +1,15 @@
+:root {
+	--color-primary-cyan: hsl(158, 36%, 37%);
+	--color-primary-cream: hsl(30, 38%, 92%);
+	--color-neutral-darkblue: hsl(212, 21%, 14%);
+	--color-neutral-grayblue: hsl(228, 12%, 48%);
+	--color-neutral-white: hsl(0, 0%, 100%);
+}
+
+body {
+	margin: 1rem auto;
+}
+
+.test {
+	color: var(--color-primary-cyan);
+}
